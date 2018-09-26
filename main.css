@@ -1,0 +1,64 @@
+body {
+	color: white;
+	font-family: Ubuntu, sans-serif;
+	margin: 0;	
+}
+
+.header {
+	background-color: #0099FF;
+	height: 90vh;
+	padding: 5vh 5vw;
+}
+
+.top-bar {
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+	justify-content: space-between;
+}
+
+.top-bar a {
+	text-decoration: none;
+}
+
+.top-bar > .name {
+	font-size: xx-large;
+}
+
+.links > a {
+	color: #F0F0F0;
+	font-size: large;
+}
+
+.links > a:hover {
+	color: white;
+}
+
+.links > a:not(:first-child) {
+	margin-left: 2.5vw;
+}
+
+.description {s
+	margin-top: 10vh;
+}
+
+.description > span {
+	font-size: 50px;
+}
+
+.description > p {
+	font-size: x-large;
+	line-height: 1.4;
+	width: 38vw;
+}
+
+.description, .products {
+	display: inline-block;
+}
+
+.products {
+	float: right;
+	margin-top: 10vh;
+	text-align: center;
+}
+
