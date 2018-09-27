@@ -1,0 +1,25 @@
+.description {
+	margin-top: 20vh;
+}
+
+.description > span {
+	font-size: 50px;
+}
+
+.description > p {
+	font-size: x-large;
+	line-height: 1.4;
+	width: 38vw;
+}
+
+.description, .products {
+	display: inline-block;
+}
+
+.products-container {
+	float: right;
+	font-size: 5vw;
+	margin-top: 25vh;
+	text-align: center;
+	width: 40vw;
+}

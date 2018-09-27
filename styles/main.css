@@ -30,35 +30,10 @@ body {
 	font-size: large;
 }
 
-.links > a:hover {
+.links > a:hover, .links > .selected {
 	color: white;
 }
 
 .links > a:not(:first-child) {
 	margin-left: 2.5vw;
 }
-
-.description {s
-	margin-top: 10vh;
-}
-
-.description > span {
-	font-size: 50px;
-}
-
-.description > p {
-	font-size: x-large;
-	line-height: 1.4;
-	width: 38vw;
-}
-
-.description, .products {
-	display: inline-block;
-}
-
-.products {
-	float: right;
-	margin-top: 10vh;
-	text-align: center;
-}
-
