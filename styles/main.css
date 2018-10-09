@@ -1,13 +1,13 @@
 body {
-	color: white;
+	color: #F0F0F0;
 	font-family: Ubuntu, sans-serif;
-	margin: 0;	
+	padding: 5vh 5vw;
+	margin: 0;
+	min-height: 90vh;
 }
 
-.header {
-	background-color: #0099FF;
-	height: 90vh;
-	padding: 5vh 5vw;
+a {
+	text-decoration: none;
 }
 
 .top-bar {
@@ -18,22 +18,36 @@ body {
 }
 
 .top-bar a {
-	text-decoration: none;
+	color: #EEE;
 }
 
-.top-bar > .name {
-	font-size: xx-large;
+.name {
+	font-size: 2.25em;
+}
+
+.name, .links > a:hover, .selected {
+	color: white !important;
 }
 
 .links > a {
-	color: #F0F0F0;
 	font-size: large;
-}
-
-.links > a:hover, .links > .selected {
-	color: white;
 }
 
 .links > a:not(:first-child) {
 	margin-left: 2.5vw;
+}
+
+.description {
+	display: inline-block;
+}
+
+.description > span {
+	color: white;
+	font-size: 50px;
+}
+
+.description > p {
+	font-size: x-large;
+	line-height: 1.4;
+	width: 38vw;
 }

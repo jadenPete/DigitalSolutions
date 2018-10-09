@@ -13,32 +13,57 @@
 	</head>
 	
 	<body>
-		<div class="header">
-			<div class="top-bar">
-				<a class="name">Digital Solutions</span>
-			
-				<div class="links">
-					<a href="pages/about.html">About Us</a>
-					<a href="pages/contact.html">Contact Us</a>
-					<a href="pages/products.html">Our Products</a>
-				</div>
-			</div>
-			
-			<div class="description">
-				<span>Let us do the work</span>
-				
-				<p>
-					We develop solutions tailored to every company's needs.
-					Whether you need a website, app, or algorithm, you can
-					rest assured that our products will enhance your brand. 
-				<p>
-			</div>
-			
-			<div class="products-container">
-				<span class="products"></span>
+		<div class="top-bar">
+			<a class="name">Digital Solutions</a>
+
+			<div class="links">
+				<a href="pages/about.html">About Us</a>
+				<a href="pages/contact.html">Contact Us</a>
+				<a href="pages/products.html">Our Products</a>
 			</div>
 		</div>
+
+		<div class="description">
+			<span>Let us do the work</span>
+
+			<p>
+				We develop solutions tailored to every company's needs.
+				Whether you need a website, app, or algorithm, you can
+				rest assured that our products will enhance your brand. 
+			<p>
+		</div>
+
+		<div class="products-container">
+			<span class="products"></span>
+		</div>
 		
-		<script src="main.js"></script>
+		<div id="disqus_thread"></div>
+		
+		<script>
+			/**
+			  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+			  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+			 */
+			
+			/*
+				var disqus_config = function() {
+					this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+			*/
+
+			(function() {
+				var d = document, s = d.createElement('script');
+				s.src = 'https://digital-solutions.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+			})();
+		</script>
+
+		<noscript>
+			Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+		</noscript>
+		
+		<script src="scripts/index.js"></script>
 	</body>
 </html>

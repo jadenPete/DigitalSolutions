@@ -2,7 +2,9 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,500">
-		<link rel="stylesheet" href="styles/main.css">
+		
+		<link rel="stylesheet" href="../styles/main.css">
+		<link rel="stylesheet" href="../styles/contact.css">
 		
 		<title>
 			Digital Solutions - Contact Us
@@ -10,32 +12,48 @@
 	</head>
 	
 	<body>
-		<div class="header">
-			<div class="top-bar">
-				<a class="name" href="../index.html">Digital Solutions</span>
-			
-				<div class="links">
-					<a href="../pages/about.html">About Us</a>
-					<a class="selected">Contact Us</a>
-					<a href="../pages/products.html">Our Products</a>
-				</div>
-			</div>
-			
-			<div class="description">
-				<span>Let us do the work</span>
-				
-				<p>
-					We develop solutions tailored to every company's needs.
-					Whether you need a website, app, or algorithm, you can
-					rest assured that our products will enhance your brand. 
-				<p>
-			</div>
-			
-			<div class="products-container">
-				<span class="products"></span>
+		<div class="top-bar">
+			<a class="name" href="../index.html">Digital Solutions</a>
+
+			<div class="links">
+				<a href="../pages/about.html">About Us</a>
+				<a class="selected">Contact Us</a>
+				<a href="../pages/products.html">Our Products</a>
 			</div>
 		</div>
+
+		<div class="description">
+			<span>We will help you</span>
+
+			<p>
+				Get help, make a suggestion, report a bug,
+				or leave a comment on social media. Or,
+				send us an email with the form on the right.
+			</p>
+
+			<a href="#">
+				<img class="facebook" src="../images/facebook.png">
+			</a>
+
+			<a href="#">
+				<img class="twitter" src="../images/twitter.png">
+			</a>
+
+			<a href="#">
+				<img class="instagram" src="../images/instagram.png">
+			</a>
+		</div>
+
+		<form id="form">
+			<input id="fname" type="text" placeholder="First name">
+			<input id="lname" type="text" placeholder="Last name">
+			<input id="subject" type="text" placeholder="Subject">
+
+			<textarea id="body"></textarea>
+
+			<input type="submit" value="Submit">
+		</form>
 		
-		<script src="main.js"></script>
+		<script src="../scripts/contact.js"></script>
 	</body>
 </html>
