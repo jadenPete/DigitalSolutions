@@ -1,0 +1,38 @@
+body {
+	background-image: linear-gradient(#6633FF, #3333FF);	
+}
+
+.description {
+	text-align: center;
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+	width: 100%;
+}
+
+.description, .videos {
+	text-align: center;	
+}
+
+.videos {
+	padding: 0 1vw;
+	margin-bottom: 7.5vh;
+}
+
+.group > .video:first-child {
+	margin-right: 2vw;	
+}
+
+.video {
+	display: inline-block;
+	border-radius: 4px;
+	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+}
+
+.video > iframe {
+	border: none;
+	display: block;
+	
+	width: 42.5vw;
+	height: calc(42.5vw * (9 / 16));
+}
